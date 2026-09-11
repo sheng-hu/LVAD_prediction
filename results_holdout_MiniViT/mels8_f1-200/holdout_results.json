@@ -1,0 +1,132 @@
+{
+  "model": "MiniViT",
+  "n_mels": 8,
+  "min_freq": 1.0,
+  "max_freq": 200.0,
+  "threshold_info": {
+    "threshold": 0.0009,
+    "source": "command line"
+  },
+  "bootstrap": {
+    "n_boot": 2000,
+    "seed": 0,
+    "within_patient": false,
+    "patients": [
+      "HKW",
+      "KIT",
+      "YK_"
+    ]
+  },
+  "test_metrics": {
+    "accuracy": {
+      "estimate": 0.7491638795986622,
+      "ci_low": 0.711038961038961,
+      "ci_high": 0.7896551724137931,
+      "n_valid": 2000
+    },
+    "auc": {
+      "estimate": 0.8208319685555191,
+      "ci_low": 0.7957259585166562,
+      "ci_high": 0.8481532147742816,
+      "n_valid": 2000
+    },
+    "auprc": {
+      "estimate": 0.6822897272687591,
+      "ci_low": 0.6188459333019958,
+      "ci_high": 0.779380451140195,
+      "n_valid": 2000
+    },
+    "sensitivity": {
+      "estimate": 0.7558139534883721,
+      "ci_low": 0.7558139534883721,
+      "ci_high": 0.7558139534883721,
+      "n_valid": 2000
+    },
+    "specificity": {
+      "estimate": 0.7464788732394366,
+      "ci_low": 0.6936936936936937,
+      "ci_high": 0.803921568627451,
+      "n_valid": 2000
+    },
+    "precision": {
+      "estimate": 0.5462184873949579,
+      "ci_low": 0.48872180451127817,
+      "ci_high": 0.6190476190476191,
+      "n_valid": 2000
+    },
+    "f1": {
+      "estimate": 0.6341463414634146,
+      "ci_low": 0.593607305936073,
+      "ci_high": 0.680628272251309,
+      "n_valid": 2000
+    },
+    "gmean": {
+      "estimate": 0.7511319114367622,
+      "ci_low": 0.7240879595329441,
+      "ci_high": 0.7794967216601282,
+      "n_valid": 2000
+    },
+    "brier": {
+      "estimate": 0.20317714496042347,
+      "ci_low": 0.14931424982105407,
+      "ci_high": 0.25389220856567385,
+      "n_valid": 2000
+    }
+  },
+  "record_metrics": {
+    "accuracy": {
+      "estimate": 0.6,
+      "ci_low": 0.5675675675675675,
+      "ci_high": 0.6363636363636364,
+      "n_valid": 2000
+    },
+    "auc": {
+      "estimate": 0.8977272727272727,
+      "ci_low": 0.8429752066115703,
+      "ci_high": 0.9440559440559441,
+      "n_valid": 2000
+    },
+    "auprc": {
+      "estimate": 0.8605128205128205,
+      "ci_low": 0.8188793303882818,
+      "ci_high": 0.946127946127946,
+      "n_valid": 2000
+    },
+    "sensitivity": {
+      "estimate": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "n_valid": 2000
+    },
+    "specificity": {
+      "estimate": 0.4166666666666667,
+      "ci_low": 0.38461538461538464,
+      "ci_high": 0.45454545454545453,
+      "n_valid": 2000
+    },
+    "precision": {
+      "estimate": 0.44,
+      "ci_low": 0.4074074074074074,
+      "ci_high": 0.4782608695652174,
+      "n_valid": 2000
+    },
+    "f1": {
+      "estimate": 0.6111111111111112,
+      "ci_low": 0.5789473684210527,
+      "ci_high": 0.6470588235294118,
+      "n_valid": 2000
+    },
+    "gmean": {
+      "estimate": 0.6454972243679028,
+      "ci_low": 0.6201736729460423,
+      "ci_high": 0.674199862463242,
+      "n_valid": 2000
+    },
+    "brier": {
+      "estimate": 0.12085712242912293,
+      "ci_low": 0.0728767764907499,
+      "ci_high": 0.17465326787517754,
+      "n_valid": 2000
+    }
+  }
+}

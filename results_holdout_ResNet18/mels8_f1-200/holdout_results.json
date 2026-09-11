@@ -1,0 +1,132 @@
+{
+  "model": "ResNet18",
+  "n_mels": 8,
+  "min_freq": 1.0,
+  "max_freq": 200.0,
+  "threshold_info": {
+    "threshold": 0.207,
+    "source": "command line"
+  },
+  "bootstrap": {
+    "n_boot": 2000,
+    "seed": 0,
+    "within_patient": false,
+    "patients": [
+      "HKW",
+      "KIT",
+      "YK_"
+    ]
+  },
+  "test_metrics": {
+    "accuracy": {
+      "estimate": 0.7190635451505016,
+      "ci_low": 0.6038961038961039,
+      "ci_high": 0.8413793103448276,
+      "n_valid": 2000
+    },
+    "auc": {
+      "estimate": 0.7657495359755432,
+      "ci_low": 0.6624764299182904,
+      "ci_high": 0.8781349749202005,
+      "n_valid": 2000
+    },
+    "auprc": {
+      "estimate": 0.5127426504948522,
+      "ci_low": 0.37698660143770146,
+      "ci_high": 0.8357034569442142,
+      "n_valid": 2000
+    },
+    "sensitivity": {
+      "estimate": 0.627906976744186,
+      "ci_low": 0.627906976744186,
+      "ci_high": 0.627906976744186,
+      "n_valid": 2000
+    },
+    "specificity": {
+      "estimate": 0.755868544600939,
+      "ci_low": 0.5945945945945946,
+      "ci_high": 0.9313725490196079,
+      "n_valid": 2000
+    },
+    "precision": {
+      "estimate": 0.5094339622641509,
+      "ci_low": 0.375,
+      "ci_high": 0.7941176470588235,
+      "n_valid": 2000
+    },
+    "f1": {
+      "estimate": 0.5625,
+      "ci_low": 0.46956521739130436,
+      "ci_high": 0.7012987012987013,
+      "n_valid": 2000
+    },
+    "gmean": {
+      "estimate": 0.6889231689066666,
+      "ci_low": 0.6110238082761807,
+      "ci_high": 0.7647321893822884,
+      "n_valid": 2000
+    },
+    "brier": {
+      "estimate": 0.2268615811815259,
+      "ci_low": 0.12567987672354378,
+      "ci_high": 0.32213006914521036,
+      "n_valid": 2000
+    }
+  },
+  "record_metrics": {
+    "accuracy": {
+      "estimate": 0.7428571428571429,
+      "ci_low": 0.5454545454545454,
+      "ci_high": 0.918918918918919,
+      "n_valid": 2000
+    },
+    "auc": {
+      "estimate": 0.7878787878787878,
+      "ci_low": 0.6363636363636364,
+      "ci_high": 0.916083916083916,
+      "n_valid": 2000
+    },
+    "auprc": {
+      "estimate": 0.6721719800667169,
+      "ci_low": 0.5746744323214912,
+      "ci_high": 0.887027972027972,
+      "n_valid": 2000
+    },
+    "sensitivity": {
+      "estimate": 0.7272727272727273,
+      "ci_low": 0.7272727272727273,
+      "ci_high": 0.7272727272727273,
+      "n_valid": 2000
+    },
+    "specificity": {
+      "estimate": 0.75,
+      "ci_low": 0.45454545454545453,
+      "ci_high": 1.0,
+      "n_valid": 2000
+    },
+    "precision": {
+      "estimate": 0.5714285714285714,
+      "ci_low": 0.4,
+      "ci_high": 1.0,
+      "n_valid": 2000
+    },
+    "f1": {
+      "estimate": 0.64,
+      "ci_low": 0.5161290322580645,
+      "ci_high": 0.8421052631578947,
+      "n_valid": 2000
+    },
+    "gmean": {
+      "estimate": 0.7385489458759964,
+      "ci_low": 0.5749595745760689,
+      "ci_high": 0.8528028654224418,
+      "n_valid": 2000
+    },
+    "brier": {
+      "estimate": 0.19618792396897478,
+      "ci_low": 0.09344525273025757,
+      "ci_high": 0.3113842523275364,
+      "n_valid": 2000
+    }
+  }
+}
